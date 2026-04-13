@@ -3,6 +3,7 @@ name: Hello World Automatique
 on:
   push:
     branches: [ main ]
+    workflow_dispatch:  
 
 jobs:
   dire-bonjour:
